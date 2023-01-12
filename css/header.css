@@ -1,0 +1,41 @@
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.nav__lista{
+    display: flex;
+    gap: 32px;
+ 
+}
+.nav__lista a{
+    text-decoration: none;
+}
+.nav__item{
+    font-weight: 500px;
+    color: var(--text-color-gray);
+    
+}
+
+.container__login{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ 
+}
+.login__item-entrar{
+    color: var(--text-color-gray);
+    text-decoration: none;
+}
+.login__item-cadastrar{
+    padding: 10px 18px;
+    background-color: var(--btn-bg);
+    border-radius: 8px;
+    color: var(--text-color-white);
+    text-decoration: none;
+}
+

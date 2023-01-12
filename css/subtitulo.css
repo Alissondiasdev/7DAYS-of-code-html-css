@@ -1,0 +1,38 @@
+.subtítulo__container{
+    
+background: rgba(196, 25, 25, 0.03);
+
+border-radius: 16px;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 96px;
+}
+.subtitulo__title{
+    color: var(--btn-bg);
+    font-size: 14px;
+    text-align: center;
+
+}
+.subtitulo__texto{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 16px;
+}
+.subtitulo__img{
+    margin-top: 32px;
+}
+.subtitulo__colaborador{
+    margin-top: 16px;
+}
+.subtitulo__profissao{
+    margin-top: 4px;
+    color: var(--text-color-gray);
+}
+@media(max-width: 390px){
+    .subtitulo__texto{
+        font-size: 18px;
+    }
+}

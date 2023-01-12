@@ -1,0 +1,39 @@
+.talentos__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.talentos__container-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.talentos__span{
+    font-size: 14px;
+    color: var(--btn-bg);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    
+    
+}
+.talentos__titulo{
+    color: var(--text-color-black);
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.talentos__paragrafo{
+    color: var(--text-color-gray);
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.talentos__img{
+    margin-top: 64px;
+    width: 100%;
+}
